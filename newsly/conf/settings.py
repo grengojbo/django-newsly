@@ -7,7 +7,7 @@ DOCUMENTS_PATH = getattr(settings, 'NEWSLY_DOCUMENTS_PATH', 'uploads/newsly/%(sl
 AUTHOR_DISPLAY = getattr(settings, 'NEWSLY_AUTHOR_DISPLAY', 'fullname') # 'fullname', 'username', False
 GRPAPPELLI_TINYMCE = getattr(settings, 'NEWSLY_GRPAPPELLI_TINYMCE', False)
 GRPAPPELLI_TINYMCE_SRC = getattr(settings, 'NEWSLY_GRPAPPELLI_TINYMCE_SRC',  'grappelli/tinymce/jscripts/tiny_mce/tiny_mce.js')
-GRPAPPELLI_TINYMCE_CONF = getattr(settings, 'NEWSLY_GRPAPPELLI_TINYMCE_CONF', 'website/js/tinymce_setup.js')
+GRPAPPELLI_TINYMCE_CONF = getattr(settings, 'NEWSLY_GRPAPPELLI_TINYMCE_CONF', 'newsly/js/tinymce_setup.js')
 
 VIDEOS_SIZE = getattr(settings, 'NEWSLY_VIDEOS_SIZE', '240')
 FIRST_THUMBNAIL_SIZE = getattr(settings, 'NEWSLY_FIRST_THUMBNAIL_SIZE', '240x240')
